@@ -1,7 +1,3 @@
-Absolutely! Here's a clean, developer-friendly `README.md` tailored for your **Blink to Shoot** project:
-
----
-
 ```markdown
 # 👁️ Blink to Shoot – Eye & Head Controlled Game
 
