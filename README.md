@@ -30,32 +30,32 @@ A lightweight Python game where you **aim with your head** and **shoot with your
 
 ---
 
+```markdown
 ## 🗂 Project Structure
 
-```
-
+```text
 blink_to_shoot_game/
 ├── main.py                          # Entry point of the game
 ├── config.py                        # Constants and settings
 ├── game/
-│   ├── _init_.py
+│   ├── __init__.py
 │   ├── game_loop.py                 # Main game loop logic
 │   ├── player.py                    # Crosshair/player movement and shooting
 │   ├── enemy.py                     # Enemy spawn and behavior
 │   ├── bullet.py                    # Bullet behavior
 ├── detection/
-│   ├── _init_.py
-│   ├── face_tracker.py             # Mediapipe logic (face, head tracking)
-│   ├── blink_detector.py           # EAR calculation, blink detection
+│   ├── __init__.py
+│   ├── face_tracker.py              # Mediapipe logic (face, head tracking)
+│   ├── blink_detector.py            # EAR calculation, blink detection
 ├── assets/
 │   ├── player.png                   # (Optional) Crosshair image 
 │   ├── enemy.png                    # (Optional) Enemy image
 │   ├── shoot.wav                    # (Optional) Sound effect
 ├── utils/
-│   ├── _init_.py
-│   ├── helpers.py                  # Utility functions (e.g., EAR calculation)
-├── requirements.txt                # Python dependencies
-└── README.md                       # Project overview and setup
+│   ├── __init__.py
+│   ├── helpers.py                   # Utility functions (EAR calculation)
+├── requirements.txt                 # Python dependencies
+└── README.md                        # Project overview and setup
 
 ````
 assets folder is not implemented for now 
